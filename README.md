@@ -4,26 +4,28 @@ A collection of *reference implementations* for the [Model Context Protocol](htt
 
 Each MCP server is implemented with either the [Typescript MCP SDK](https://github.com/modelcontextprotocol/typescript-sdk) or [Python MCP SDK](https://github.com/modelcontextprotocol/python-sdk).
 
-## 🌟 Featured Servers
+## 🌟 Reference Servers
 
+These servers aim to demonstrate MCP features and the Typescript and Python SDK.
+
+- **[Brave Search](src/brave-search)** - Web and local search using Brave's Search API
+- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage
 - **[Filesystem](src/filesystem)** - Secure file operations with configurable access controls
 - **[GitHub](src/github)** - Repository management, file operations, and GitHub API integration
 - **[GitLab](src/gitlab)** - GitLab API, enabling project management
 - **[Git](src/git)** - Tools to read, search, and manipulate Git repositories
 - **[Google Drive](src/gdrive)** - File access and search capabilities for Google Drive
-- **[PostgreSQL](src/postgres)** - Read-only database access with schema inspection
-- **[Sqlite](src/sqlite)** - Database interaction and business intelligence capabilities
-- **[Slack](src/slack)** - Channel management and messaging capabilities
-- **[Sentry](src/sentry)** - Retrieving and analyzing issues from Sentry.io
-- **[Memory](src/memory)** - Knowledge graph-based persistent memory system
-- **[Puppeteer](src/puppeteer)** - Browser automation and web scraping
-- **[Brave Search](src/brave-search)** - Web and local search using Brave's Search API
 - **[Google Maps](src/google-maps)** - Location services, directions, and place details
-- **[Fetch](src/fetch)** - Web content fetching and conversion for efficient LLM usage
+- **[Memory](src/memory)** - Knowledge graph-based persistent memory system
+- **[PostgreSQL](src/postgres)** - Read-only database access with schema inspection
+- **[Puppeteer](src/puppeteer)** - Browser automation and web scraping
+- **[Sentry](src/sentry)** - Retrieving and analyzing issues from Sentry.io
+- **[Slack](src/slack)** - Channel management and messaging capabilities
+- **[Sqlite](src/sqlite)** - Database interaction and business intelligence capabilities
 
 ## 🌎 Community Servers
 
-There are many community developed and maintained servers.
+A growing set of community-developed and maintained servers demonstrates various applications of MCP across different domains.
 
 > **Note:** Community servers are untested and should be used at your own risk. They are not affiliated with or endorsed by Anthropic.
 
@@ -32,6 +34,8 @@ There are many community developed and maintained servers.
 - **[MCP Installer](https://github.com/anaisbetts/mcp-installer)** - This server is a server that installs other MCP servers for you.
 
 ## 📚 Resources
+
+Additional resources on MCP.
 
 - **[Awesome MCP Servers by punkpeye](https://github.com/punkpeye/awesome-mcp-servers)** - A curated list of MCP servers by **[Frank Fiegel](https://github.com/punkpeye)**
 - **[Awesome MCP Servers by wong2](https://github.com/wong2/awesome-mcp-servers)** - A curated list of MCP servers by **[wong2](https://github.com/wong2)**
